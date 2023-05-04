@@ -52,7 +52,13 @@
 </head>
 <body>
     <div class="container">
+        <select name="" id="">
+            <option value="">filters</option>
+            <option value="">-------</option>
+            <option value="parking"> with parking only</option>
+        </select>
         
+
         <table class="table">
             <thead>
 
@@ -90,7 +96,6 @@
                 
                 <?php }; ?>
             </tbody>
-
         </table>
 
     </div>
